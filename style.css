@@ -1,0 +1,97 @@
+.bac{
+    position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   width: 100%;
+   height: 100%;
+
+}
+.header{
+    height: 500px;
+    /* width: 100%; */
+}
+@media (min-aspect-ratio:16/9){
+    .bac{
+        width: 100%;
+        height: auto;
+    }
+
+}
+@media (max-aspect-ratio:16/9){
+    .bac{
+        width: auto;
+        height: 100%;
+    }
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.title{
+    display: flex;
+}
+.has{
+    margin-left: 10px;
+}
+.hasan{
+    text-align: center;
+    color: beige;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.otput{
+    margin-bottom: 20px;
+    color: azure;
+    font-size: 10px;
+}
+.Arcade , button{
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: 20px;
+    color:black;
+    border: none;
+
+
+}
+ .center{
+background-color: grey;
+    /* text-align: center; */
+}
+.juu{
+    text-align: center;
+
+}
+.test{
+background-color: grey; 
+padding-bottom: 40px;
+}
+.mari{
+justify-content: center;
+ grid-template-columns:400px 400px;
+gap: 20px;
+display: grid;
+}
+.picture{
+width: 320px;
+}
+.image{
+margin-top: 20px;
+margin-left: 40px;
+}
+.col{
+    height: 200px;
+}
+h3{
+font-size: 20px;
+margin-left: 50px;
+}
+h5{
+font-size: 20px;
+margin-left: 40px;
+}
+
